@@ -2,16 +2,16 @@
 class Dy < Formula
   desc "Construct YAML from a directory tree"
   homepage "https://github.com/sampointer/dy"
-  version "0.2.1"
+  version "0.2.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sampointer/dy/releases/download/v0.2.1/dy_0.2.1_Darwin_x86_64.tar.gz"
-    sha256 "5971256edd00978909eb063281cb3182baf4d361cd18574f1119f1d60e9b5446"
+    url "https://github.com/sampointer/dy/releases/download/v0.2.2/dy_0.2.2_Darwin_x86_64.tar.gz"
+    sha256 "8253ce0b5d652845eb6b0c31927bfb49415d4ac142204197b748cd3339af0b85"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sampointer/dy/releases/download/v0.2.1/dy_0.2.1_Linux_x86_64.tar.gz"
-      sha256 "11926458773a5a271863a049fd29711a3d952242a741671b507419a9ae48bb6e"
+      url "https://github.com/sampointer/dy/releases/download/v0.2.2/dy_0.2.2_Linux_x86_64.tar.gz"
+      sha256 "77cc5b56b27be2305db0a9d65b23ad490e8a4d8dd16e042b7c2f2a44a762a616"
     end
   end
 
